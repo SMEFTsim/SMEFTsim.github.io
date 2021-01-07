@@ -63,9 +63,9 @@
 		background: #fff;
 		font-family: 'Source Sans Pro', sans-serif;
 		font-size: 19pt;
-		font-weight: 300;
+		font-weight: 380;
 		line-height: 1.75em;
-		color: #888;
+		color: #575757; /* #6d6d6d; #888;*/
 
 		&.is-loading * {
 			@include vendor('transition', 'none !important');
@@ -76,14 +76,14 @@
 	input, textarea, select {
 		font-family: 'Source Sans Pro', sans-serif;
 		font-size: 19pt;
-		font-weight: 300;
+		font-weight: 380;
 		line-height: 1.75em;
-		color: #888;
+		color: #575757;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		font-weight: 300;
-		color: #666;
+		font-weight: 400;
+		color: #41484c; /*#222729; #666;*/
 		line-height: 1.5em;
 	}
 
@@ -118,8 +118,8 @@
 	}
 
 	strong, b {
-		font-weight: 300;
-		color: #666;
+		font-weight: 400;
+		color:  #575757; /*#6d6d6d; #666;*/
 	}
 
 	em, i {
@@ -128,13 +128,13 @@
 
 	a {
 		text-decoration: none;
-		color: inherit;
+		color:  #ff420e; /*inherit;*/
 		border-bottom: dotted 1px rgba(128, 128, 128, 0.5);
 		@include vendor('transition', ('color 0.35s ease-in-out', 'border-bottom-color 0.35s ease-in-out'));
 		outline: 0;
 
 		&:hover {
-			color: #E27689;
+			color: #d72e00; /*#E27689;*/
 			border-bottom-color: rgba(255, 255, 255, 0);
 		}
 	}
