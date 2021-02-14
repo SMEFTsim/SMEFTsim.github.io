@@ -1,0 +1,53 @@
+---
+title: Reinterpretation forum   
+icon: fa-pencil-alt
+order: 2
+---
+
+<h3>
+<i class="fas fa-calendar-alt"></i> 17.01.2021
+<i class="fas fa-external-link-alt"></i> <a href="https://indico.cern.ch/event/982553/">Indico page</a>
+</h3>
+
+<hr> 
+<ol class="fa-ul">
+The tutorial will be in two parts: a short one about the usage of SMEFTsim in FeynRules and a longer one about the usage for MC event generation.
+They are completely independent.
+</ol>
+
+
+<h3 style="text-align:left;"> Part 1: SMEFTsim in FeynRules </h3>
+<h4 style="text-align:left;"> Pre-requisites </h4>
+
+<ol class="fa-ul" style="text-align:left;font-size:15pt;">
+<li><span class="fa-li"><i class="fas fa-caret-right"></i></span> Mathematica 12. <br>
+If you do not have a license from your home institute, you can get a 15-day trial license from the <a href="https://www.wolfram.com/mathematica/trial/"> Wolfwam website </a>   </li>
+<li><span class="fa-li"><i class="fas fa-caret-right"></i></span>  <a href="http://feynrules.irmp.ucl.ac.be/">FeynRules</a>  </li>
+</ol>
+<h4 style="text-align:left;"> Material  </h4>
+<ol class="fa-ul" style="text-align:left;font-size:15pt;">
+<li><span class="fa-li"><i class="fas fa-caret-right"></i></span> Download the SMEFTsim FeynRules source from the <a href="https://github.com/SMEFTsim/SMEFTsim">GitHub repository</a>  </li>
+</ol>
+
+<h3 style="text-align:left;"> Part 2: SMEFTsim in MadGraph5 </h3>
+<h4 style="text-align:left;"> Pre-requisites </h4>
+<ol class="fa-ul" style="text-align:left;font-size:15pt;">
+<li><span class="fa-li"><i class="fas fa-carete-right"></i></span> <a href="https://launchpad.net/mg5amcnlo">MadGraph5_aMC@NLO</a> v2.6 or more recent, including the reweight module.  </li>
+<li><span class="fa-li"><i class="fas fa-caret-right"></i></span> <a href="">ROOT</a> with PyROOT (for python2.7)  </li>
+OR, alternatively:
+<li><span class="fa-li"><i class="fas fa-caret-right"></i></span> <a href="https://www.virtualbox.org/wiki/Downloads"> VirtualBox </a> </li>
+<li><span class="fa-li"><i class="fas fa-caret-right"></i></span> The virtual machine <code>Delphes2020.vdi</code> available <a href="https://drive.google.com/drive/folders/0B-t5klOOymMNYm1YT0tmNkR5a1k"> here </a>. Please follow the installation instructions provided. Note that the machine is about 4GB, so it might take some time to download.  </li>
+</ol>
+
+<h4 style="text-align:left;"> Material </h4>
+<ol class="fa-ul" style="text-align:left;font-size:15pt;">
+<li><span class="fa-li"><i class="fas fa-caret-right"></i></span> We will use the latest version of the UFO model <code>SMEFTsim_U35_MwScheme_UFO</code>.<br>
+You can either download it from the <a href="https://github.com/SMEFTsim/SMEFTsim">GitHub repository</a> and copy it into the <code>MADGRAPH/models/</code> directory or import it from the FeynRules database: after opening MadGraph, type
+<code> import model SMEFTsim_U35_MwScheme_UFO</code>
+The model will be automatically downloaded.
+</li>
+<li><span class="fa-li"><i class="fas fa-caret-right"></i></span> A <b>tarball with additional material</b> will be available soon!  </li>
+
+<br>
+If you are using the Virtual Machine, make sure to download all the material within the virtual environment.
+</ol>
