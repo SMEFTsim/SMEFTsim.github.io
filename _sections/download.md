@@ -11,5 +11,5 @@ It is recommended to download the
 
 A copy of the latest SMEFTsim release is also stored in the <a href="http://feynrules.irmp.ucl.ac.be/wiki/SMEFT">Feynrules database</a>.
 
-An interactive tool that provides the Feynman rules in FeynRules format can be downloaded from the <a href="https://notebookarchive.org/smeftsim-interactive-feynman-rules-database--2022-01-5jz62qa/"> NotebookArchive</a> <br/> (requires Mathematica)
+<i class="fas fa-star"></i> <b style="color:#ff420e;">NEW </b> Download an interactive tool providing SMEFTsim Feynman rules from the <a href="https://notebookarchive.org/smeftsim-interactive-feynman-rules-database--2022-01-5jz62qa/"> NotebookArchive</a> <br/> (requires Mathematica)
 
