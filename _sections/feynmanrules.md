@@ -12,6 +12,10 @@ Interactive tool to read off <b>SMEFTsim Feynman rules</b> by vertex or by opera
 <br/>
 <br/>
 Interactive tool to visualize vertices induced by each SMEFTsim parameter, developed by R. Balasubramanian and S. Swatman<br/>
-<i class="fas fa-window-restore" ></i> use in-browser at <a href="https://rahulb.web.cern.ch/SMEFTviz.html">this link</a>
+<i class="fas fa-window-restore" ></i> Use in-browser at <a href="https://rahulb.web.cern.ch/SMEFTviz.html">this link</a>
+<br/>
+<br/>
+"SMEFTsimFeyn": command-line python tool to draw SMEFTsim vertices by operator and export to png, developed by G. Boldrini<br/>
+<i class="fab fa-github" ></i> Clone from <a href="https://github.com/GiacomoBoldrini/SMEFTsimFeyn">github</a>
 
 
