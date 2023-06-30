@@ -1,0 +1,52 @@
+---
+title: PhD course "EFT fitting in Standard Model measurements"
+icon: fa-pencil-alt
+order: 2
+---
+
+<h3>
+<i class="fas fa-calendar-alt"></i> 26.06.2023
+&nbsp;
+&nbsp;
+<i class="fab fa-github"></i> <a href="https://github.com/IlariaBrivio/SMEFTsim_tutorial_June23">repo</a>
+</h3>
+
+<hr> 
+<ol class="fa-ul">
+This is a simple tutorial showcasing how to use SMEFTsim in MadGraph, simulating the decay of the Higgs boson<br> 
+h &rarr; e<sup>-</sup> &nu;<sub>e</sub> &mu;<sup>+</sup> &nu;<sub>&mu;</sub>
+</ol>
+
+
+
+<h3 style="text-align:left;"> Pre-requisites </h3>
+<ol class="fa-ul" style="text-align:left;font-size:15pt;">
+<li><span class="fa-li"><i class="fas fa-caret-right"></i></span> <a href="https://launchpad.net/mg5amcnlo">MadGraph5_aMC@NLO</a> v2.6 to v2.9, including the reweight module.  </li>
+<li><span class="fa-li"><i class="fas fa-caret-right"></i></span> <a href="">ROOT</a> with PyROOT (for python2.7)  </li>
+<u>alternatively:</u>
+<li><span class="fa-li"><i class="fas fa-caret-right"></i></span> <a href="https://www.docker.com/"> Docker </a> </li>
+<li><span class="fa-li"><i class="fas fa-caret-right"></i></span> Install the docker image following instructions given <a href="https://github.com/ajgilbert/EFT-HandsOn/tree/main">here</a>
+</li>
+</ol>
+
+<h3 style="text-align:left;"> Material and Instructions  </h3>
+<ol class="fa-ul" style="text-align:left;font-size:15pt;">
+<li><span class="fa-li"><i class="fas fa-caret-right"></i></span>  Download material by cloning the github repository
+<code> https://github.com/IlariaBrivio/SMEFTsim_tutorial_June23.git </code>
+<li><span class="fa-li"><i class="fas fa-caret-right"></i></span>
+Follow instructions in the Readme file.
+<li><span class="fa-li"><i class="fas fa-caret-right"></i></span>
+If you are using docker, make sure to download all the material from within the image.
+</ol>
+
+
+<h3 style="text-align:left;"> Solutions </h3>
+<ol class="fa-ul" style="text-align:left;font-size:15pt;">
+<li><span class="fa-li"><i class="fas fa-caret-right"></i></span> The repository contains a zip folder with the product of the tutorial.
+<li><span class="fa-li"><i class="fas fa-caret-right"></i></span> Some physics to look for in the plots: 
+<ul>
+	<li> quadratic terms are all much smaller than the linear ones. This is because the decay is kinematically limited.
+	<li> operators entering only through input shifts (cll1, cHbox) give exact rescalings of the SM rate &rarr; the SMEFT/SM ratio is perfectly flat.
+	<li> the operators cHW, cHl3 give different kinematics compared to SM &rarr; the SMEFT/SM ratio has a non-flat shape. 
+		<li> propagator corrections are non-negligible only in the kinematic regions where one of the two W is on-shell. <br>here, they are of the same order as the linear corrections from vertex insertions.
+</ul>
